@@ -1,0 +1,122 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    background-color: #3d3d3b;
+    color: #fff9f9;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 120px;
+    height: 100%;
+    background-color: #222;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.sidebar a {
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.sidebar {
+    background-color: #000000;
+}
+
+.content {
+    margin-left: 150px;
+    padding: 25px;
+}
+
+.header {
+    text-align: center;
+    background-color: #000000;
+    color: white;
+    padding: 50px 100px;
+}
+
+.header h1 {
+    font-size: 3em;
+    margin: 0;
+    
+}
+.header h1 strong{
+    color: #e5ff00;
+}
+
+.header p {
+    font-size: 1.5em;
+    
+}
+
+.about, .projects, .contact , .skills {
+    padding: 40px;
+    margin: 40px 0;
+    background-color: #000000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about h2, .projects h2, .contact h2 {
+    border-bottom: 2px solid #000000;
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: xx-large;
+    color: #e5ff00;
+}
+
+.skills {
+    margin-top: 20px;
+    
+}
+.skills h2 {
+    color: #e5ff00;
+    font-size: xx-large;
+}
+
+.skill-bar {
+    background-color: #1f1e1e;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.skill-bar div {
+    background-color: #e6dddd;
+    height: 28px;
+    border-radius: 5px;
+    text-align: right;
+    padding-right: 10px;
+    color: rgb(5, 5, 5);
+    line-height: 28px;
+}
+
+.projects img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.contact form input, .contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+}
+
+.contact form button {
+    padding: 15px 30px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.contact form button:hover {
+    background-color: #575757;
+}
+.skills strong p {
+    color: rgba(64, 255, 137, 0.76);
+}
